@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  img {
+    padding: 0;
+    width: 100%;
+  }
+}
+
+body {
+  width: 100%;
+  margin: 0;
+}
+
+.pairs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin: 1rem;
+
+  img {
+    width: 100%;
+  }
+}

@@ -1,0 +1,57 @@
+:root {
+  --background-color: #d3e7f0;
+  --button-background: #edf8fd;
+  --accent-color: #365461;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  margin-top: 2rem;
+  font-family: "Montserrat Alternates", "Tahoma", sans-serif;
+}
+
+button {
+  background-color: var(--button-background);
+  border: 2px solid var(--accent-color);
+  border-radius: 10px;
+  padding: 2.5rem;
+  margin: 1rem;
+
+  a {
+    color: #000;
+    text-decoration: none;
+    font-family: "Montserrat", "Tahoma", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+  }
+}
+
+button:hover {
+  background-color: var(--accent-color);
+  border: 2px solid var(--button-background);
+  transition: 0.2s;
+  cursor: pointer;
+  a {
+    color: #fff;
+  }
+}
+
+p {
+  font-family: "Montserrat", "Tahoma", sans-serif;
+  font-weight: 450;
+  max-width: 80ch;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
