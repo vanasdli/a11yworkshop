@@ -1,5 +1,39 @@
+:root {
+  --dark-gray: #8c9094;
+  --light-gray: #a4b2be;
+}
+
 * {
   box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  width: 99.5%;
+  margin: 0.2rem;
+  border: 2px solid var(--light-gray);
+  padding: 1rem;
+}
+
+a {
+  padding: 0.5rem;
+  width: 33%;
+  border: none;
+  color: #000;
+  text-decoration: none;
+  font-family: "Montserrat", "Tahoma", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.right-border {
+  border-right: 2px solid var(--light-gray);
 }
 
 header {
@@ -7,11 +41,6 @@ header {
     padding: 0;
     width: 100%;
   }
-}
-
-body {
-  width: 100%;
-  margin: 0;
 }
 
 .pairs {

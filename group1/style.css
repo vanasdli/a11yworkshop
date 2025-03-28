@@ -14,20 +14,40 @@ body {
   align-items: center;
 }
 
+nav {
+  display: flex;
+  width: 100%;
+  margin-bottom: 1rem;
+  border: 2px solid var(--marquee-color);
+  padding: 1rem;
+}
+
+a {
+  background-color: var(--background-color);
+  padding: 0.5rem;
+  width: 33%;
+  border: none;
+  color: #fff;
+  text-decoration: none;
+  font-family: "Montserrat", "Tahoma", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.right-border {
+  border-right: 2px solid var(--marquee-color);
+}
+
 header {
   display: flex;
   align-items: center;
+  padding: 8rem;
   margin-bottom: 2rem;
-
-  h1 {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-
-  img {
-    width: 75%;
-  }
+  background-image: url(roadrunner.JPG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 main {
