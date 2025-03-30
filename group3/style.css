@@ -53,6 +53,10 @@ header {
   text-align: center;
 }
 
+main {
+  margin: 2%;
+}
+
 h3 {
   margin-top: 2rem;
   font-family: "Montserrat Alternates", "Tahoma", sans-serif;
@@ -86,5 +90,15 @@ a {
 
   img {
     max-width: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+  main {
+    margin: 1%;
+  }
+  .pair {
+    display: flex;
+    flex-direction: column;
   }
 }
