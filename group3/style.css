@@ -1,5 +1,5 @@
 :root {
-  --background-color: #d3e7f0;
+  --background-color: #fff;
   --button-background: #edf8fd;
   --accent-color: #365461;
 }
@@ -40,14 +40,32 @@ nav {
   border-right: 2px solid var(--accent-color);
 }
 
-h1 {
+header {
+  width: 100%;
+  background-image: url(urchin_header.jpg);
+  height: 30rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+h3 {
   margin-top: 2rem;
   font-family: "Montserrat Alternates", "Tahoma", sans-serif;
   line-height: 0.8em;
 }
 
+h1 {
+  font: bold 2em "Montserrat", "Tahoma", sans-serif;
+  max-width: 80ch;
+  line-height: 0.9em;
+}
+
 p,
-h3,
 h2 {
   font-family: "Montserrat", "Tahoma", sans-serif;
   font-weight: 450;
