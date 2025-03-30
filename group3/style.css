@@ -42,7 +42,7 @@ nav {
 
 header {
   width: 100%;
-  background-image: url(header_urchin.jpg);
+  background-image: url("header_urchin.jpg");
   height: 30rem;
   background-position: center;
   background-repeat: no-repeat;
